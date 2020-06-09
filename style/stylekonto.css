@@ -1,0 +1,157 @@
+body {
+  font-family: 'Arial';
+  color: #272727;
+
+
+}
+
+
+
+#pojemnikFormularz {
+  background-color: var(--bg-color);
+  width: 300px;
+  padding: 5%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+form input {
+  width: 70%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  #pojemnikFormularz {
+    width: 90%;
+  }
+}
+
+#przyciskKonto {
+  width: calc(70% + 44px);
+  margin-bottom: 20px;
+}
+
+
+h3 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+
+
+
+.error {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+table {
+
+  background-color: black;
+  width: 100%;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  #tblcart td,
+  #tblcart th {
+    font-size: 8px;
+  }
+}
+
+td,
+th {
+
+
+  padding: 5px;
+}
+
+th {
+  background-color: #c1baba;
+}
+
+tr:nth-child(odd) {
+  background-color: #F0F0F0;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+
+.container1 {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 200px;
+  font-family: Arial;
+  color: #211a1a;
+  font-size: 0.9em;
+}
+
+.data-posilku {
+  margin-bottom: 20px;
+}
+
+.twoje-posilki {
+  font-size: 25px;
+
+  border-bottom: solid 1px grey;
+}
+
+.tbl-cart {
+  margin-bottom: 100px;
+}
+
+.zjedzone-wdniu {
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .desktop_table1,
+  .desktop_table2,
+  .desktop_table3,
+  .desktop_table4,
+  .desktop_table5 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For mobile phones: */
+  .mobile_table1,
+  .mobile_table2,
+  .mobile_table3,
+  .mobile_table4,
+  .mobile_table5 {
+    display: none;
+  }
+}
+
+
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  #tblcart td,
+  #tblcart th {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,126 @@
+body
+{
+  font-family: 'Arial';
+  color: #272727;
+  
+}
+
+
+#pojemnik
+{
+  text-align: center;
+
+}
+
+#pojemnikFormularz
+{
+  background-color: var(--bg-color);
+  margin-bottom: 30px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+#pojemnikFormularz2
+{
+  background-color: var(--bg-color);
+  width: 300px;
+  display: inline-block;
+}
+
+#pojemnikFormularzOutter
+{
+  display: inline-block;
+  background-color: var(--bg-color);
+  margin-bottom: 20px;
+}
+
+#pojemnikEmail
+{
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+#pojemnikEmail a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.material-icons.md-48
+{ 
+  font-size: 48px;
+}
+
+#formKontakt input, textarea
+{
+  width: 70%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+#przyciskKontakt
+{
+  width: calc(70% + 44px);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 688px) {
+  #pojemnikFormularz
+  {
+    margin-bottom: -12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #pojemnikFormularz2, #pojemnikFormularz
+   {
+    width: 100%;
+  }
+  
+}
+
+
+/*WIADOMOŚĆ WYSŁANA THANKS.PHP*/
+#pojemnikText
+{
+  width: 90%;
+  min-height: 350px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#pojemnikTextInner
+{
+  display: inline-block;
+  width: 290px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+
+.material-icons.md-24
+{ 
+  font-size: 32px;
+
+}
+
+#wiadomosc
+{
+  
+}
+
+#wiadomosc p
+{
+  border-bottom: solid 2px lightgrey;
+}
+

@@ -1,0 +1,297 @@
+.zbior {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+  word-wrap: break-word;
+  line-height: 1.7;
+
+}
+
+#pojemnik {
+  text-align: center;
+}
+
+
+
+#pub {
+  background: #09C;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  padding-top: 3px;
+  border-style: none;
+  color: #ffffff;
+  font: bold;
+  border-radius: 23px;
+}
+
+#pub:hover {
+  background: #666
+}
+
+
+#dodajkoment {
+  font-weight: normal;
+  font-size: 20px;
+  /*background-color: var(--bg-color2);*/
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+
+.container {
+  background-color: var(--bg-color);
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  width: 500px;
+  box-sizing: border-box;
+  margin-top: -20px;
+  margin-bottom: 50px;
+
+}
+
+#komentarze {
+  display: inline-block;
+  margin: auto;
+}
+
+form input,
+textarea {
+  width: 80%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.przyciskKoment {
+  width: 86px;
+
+  background-color: #2a2e31;
+  margin-top: 8px;
+  display: inline-block;
+
+}
+
+#hidden {
+  visibility: hidden;
+  width: calc(80% - 90px);
+}
+
+.txtcode {
+  vertical-align: top;
+}
+
+#kod {
+  max-width: 86px;
+}
+
+#captcha {
+  width: calc(80% - 90px);
+  height: 43px;
+  display: inline-block;
+  margin-top: 8px;
+  text-align: left;
+}
+
+form img {
+  border-radius: 5px;
+}
+
+
+.username-session {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 12px 20px;
+  resize: none;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 8px;
+  border: 1px solid var(--border-color);
+  color: grey;
+}
+
+
+
+
+
+
+
+.text-danger {
+  color: red;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.panel {
+  margin-top: 20px;
+  border: 1px solid var(--border-color);
+  word-wrap: break-word;
+}
+
+.panel-heading {
+  background-color: var(--bg-color3);
+  padding: 20px;
+  color: lightgrey;
+}
+
+.panel-body {
+  padding: 20px;
+  font-size: 25px;
+  font-family: arial;
+  color: var(--bg-color3);
+}
+
+.panel-footer {
+  padding: 20px;
+}
+
+
+
+
+.container-output {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.btn {
+
+  background-color: #fe4345;
+  border: none;
+  color: white;
+
+  padding: 10px 23px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #e03133;
+}
+
+
+
+#przyciskMaly {
+
+
+  padding: 2px 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+#iloscKomentarzy {
+  margin-bottom: 50px;
+}
+
+
+.zalogowano a,
+.nieZalogowano a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.zalogowano {
+  display: inline-block;
+  background-color: #2a2e31;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  width: 500px;
+}
+
+.nieZalogowano {
+  display: inline-block;
+  background-color: #2a2e31;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  width: 500px;
+
+}
+
+.bibliotekaZdjecie {
+  width: 100%;
+  height: 296px;
+  background-image: url("../images/biblioteka.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#data {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.material-icons {
+  vertical-align: -5px;
+}
+
+#mobileImage img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.komentarzDodany {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .zbior {
+    width: 80%;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .zbior,
+  .zalogowano,
+  .nieZalogowano,
+  .container-output,
+  .container {
+    width: 100%;
+  }
+
+  .bibliotekaZdjecie {
+    display: none;
+  }
+
+
+  #mobileImage img {
+    display: block;
+  }
+
+}

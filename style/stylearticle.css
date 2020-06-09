@@ -1,0 +1,162 @@
+.material-icons {
+  vertical-align: -5px;
+}
+
+
+
+h1 {
+  width: 90%;
+}
+
+.pojemnikFormularz {
+  width: 100%;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+
+  display: -webkit-box;
+
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+
+.gallery {
+  display: none;
+}
+
+.pojemnikFormularz a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 90%;
+  margin-bottom: 50px;
+
+}
+
+.galleryMobile {
+  display: block;
+  float: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+
+  display: -webkit-box;
+
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+
+.data_descWrapper {
+  flex-basis: 70%;
+}
+
+.divImgMobile {
+  flex-basis: 30%;
+}
+
+.divImgMobile img {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+}
+
+.dataMobile {
+  font-size: 10px;
+  word-wrap: break-word;
+  padding: 10px;
+  text-align: left;
+}
+
+.descMobile {
+  font-size: 13px;
+  padding: 10px;
+  text-align: left;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+@media (min-width: 620px) {
+
+  .galleryMobile,
+  .pojemnikFormularz a.aMobile {
+    display: none;
+  }
+
+  .pojemnikFormularz {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .pojemnikFormularz a {
+    margin-bottom: 0;
+  }
+
+
+  .gallery {
+    display: block;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+  }
+
+  .gallery:hover {
+    border: 0px solid #777;
+  }
+
+  .gallery img {
+    width: 252px;
+    height: 170px;
+    display: block;
+  }
+
+  .data {
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-top: -3px;
+    padding: 15px;
+    font-size: 13px;
+  }
+
+  .desc {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-weight: 700;
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 220px;
+    line-height: 1;
+  }
+
+
+
+
+  .bibliotekaZdjecie {
+    width: 100%;
+    height: 296px;
+    background-image: url("../images/biblioteka.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+  }
+
+}

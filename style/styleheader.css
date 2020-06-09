@@ -1,0 +1,360 @@
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+  max-height: none;
+}
+
+.topnav {
+  background-color: #2a2e31;
+  overflow: hidden;
+  height: 130px;
+  line-height: 1;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 76px;
+  line-height: 1;
+  -webkit-transition: none;
+  transition: none;
+  font-weight: 500 !important;
+}
+
+.topnav a:hover {
+  color: #8abbe3;
+  border-bottom: solid 2px;
+}
+
+.topnav a:first-child {
+  margin-top: -10px;
+  padding: 0px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.topnav a:first-child:hover {
+  border-bottom: none;
+}
+
+.topnav a:last-child {
+  color: #8abbe3;
+  float: right;
+}
+
+.topnav a:last-child:hover {
+  color: white;
+  border-bottom: solid 2px;
+}
+
+.menuIcon {
+  display: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1006px) {
+  .topnav a.links {
+    margin-top: 0px;
+  }
+
+  .topnav a:not(:first-child) {
+    display: none;
+
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .menuIcon:hover {
+    cursor: pointer;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a:not(:first-child) {
+    text-align: left;
+    clear: both;
+    float: none;
+    display: block;
+  }
+
+  .topnav.responsive a:hover {
+    border-bottom: none;
+  }
+
+  .topnav a:hover {
+    border-bottom: none;
+  }
+}
+
+@-webkit-keyframes rozwinMenu {
+  0% {
+    height: 130px;
+  }
+
+  50% {
+    height: 500px;
+  }
+
+  100% {
+    height: 450px;
+  }
+}
+
+@keyframes rozwinMenu {
+  0% {
+    height: 130px;
+  }
+
+  50% {
+    height: 500px;
+  }
+
+  100% {
+    height: 450px;
+  }
+}
+
+@-webkit-keyframes zwinMenu {
+  0% {
+    height: 450px;
+  }
+
+  50% {
+    height: 500px;
+  }
+
+  100% {
+    height: 130px;
+  }
+}
+
+@keyframes zwinMenu {
+  0% {
+    height: 450px;
+  }
+
+  50% {
+    height: 500px;
+  }
+
+  100% {
+    height: 130px;
+  }
+}
+
+
+
+
+
+
+.menuIcon {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin-top: 10px;
+  margin-right: -30px;
+  -webkit-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+
+.menuIcon,
+#logoMenu {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.spoon1 {
+  height: 30px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+}
+
+.spoon2 {
+  width: 0;
+  height: 4px;
+  border-top: 5px solid transparent;
+  border-right: 100px solid white;
+  border-bottom: 5px solid transparent;
+  border-radius: 30%;
+  float: left;
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+.knife1 {
+  float: left;
+  margin-left: 25px;
+  width: 15px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10% 100% 100% 0% / 90%90% 10% 10%;
+  -webkit-transform: rotateY(180deg) rotateZ(89deg);
+  transform: rotateY(180deg) rotateZ(89deg);
+  margin-top: -10px;
+}
+
+.knife2 {
+  width: 0;
+  height: 4px;
+  border-top: 5px solid transparent;
+  border-right: 110px solid white;
+  border-bottom: 5px solid transparent;
+  border-radius: 30%;
+  float: left;
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+#porkWidelki {
+  float: left;
+}
+
+#pork1 {
+  width: 0;
+  height: 0px;
+  border-top: 5px solid white;
+  border-left: 25px solid transparent;
+}
+
+#pork2 {
+  width: 0;
+  height: 1px;
+  border-top: 2.5px solid transparent;
+  border-right: 25px solid white;
+  border-bottom: 2.5px solid transparent;
+}
+
+#pork3 {
+  width: 0;
+  height: 1px;
+  border-top: 2.5px solid transparent;
+  border-right: 25px solid white;
+  border-bottom: 2.5px solid transparent;
+}
+
+#pork4 {
+  width: 0;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 5px solid white;
+}
+
+#porkSrodek {
+  height: 22px;
+  width: 20px;
+  background-color: white;
+  border-radius: 0% 30% 30% 0% / 70% 70% 70% 70%;
+  float: left;
+  margin-left: -1px;
+}
+
+#porkUchwyt {
+  width: 0;
+  height: 4px;
+  border-top: 5px solid transparent;
+  border-right: 100px solid white;
+  border-bottom: 5px solid transparent;
+  border-radius: 30%;
+  float: left;
+  margin-top: 2px;
+  margin-left: -5px;
+}
+
+#knifeMain {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  background-color: red;
+  margin-top: 10px;
+}
+
+#porkMain {
+  position: relative;
+  top: 0px;
+  -webkit-transition: top 1s, -webkit-transform 1s;
+  transition: top 1s, -webkit-transform 1s;
+  transition: transform 1s, top 1s;
+  transition: transform 1s, top 1s, -webkit-transform 1s;
+  background-color: blue;
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

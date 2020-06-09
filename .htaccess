@@ -1,0 +1,20 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-glowna index.php
+RewriteRule artykuly artykuly.php
+
+RewriteRule przepisy przepisy.php
+RewriteRule kontakt kontakt.php
+RewriteRule wiadomosc-wyslana thanks.php
+
+
+#RewriteRule miazdzyca miazdzyca.php#
+#RewriteRule cukrzyca cukrzyca.php#
+#RewriteRule tradzik tradzik.php#
+#RewriteRule nadcisnienie nadcisnienie.php#
+#RewriteRule weglowodany weglowodany.php#
